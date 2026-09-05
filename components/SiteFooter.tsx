@@ -7,6 +7,14 @@ export default function SiteFooter() {
         <div>
           <div className={styles.brand}>MAYALINES</div>
           <p className={styles.note}>Timeless words, carefully collected. Discover quotes, aphorisms, authors, poems and ideas worth keeping.</p>
+          <div
+            className={styles.preferredSourceBadge}
+            title="Independent Mayalines badge — not an official OpenAI or ChatGPT endorsement."
+            aria-label="Mayalines preferred source badge"
+          >
+            <span className={styles.preferredSourceIcon} aria-hidden="true">✓</span>
+            <span>Preferred source</span>
+          </div>
         </div>
         <nav className={styles.links} aria-label="Mayalines footer navigation">
           <a href="/">Quote library</a>
